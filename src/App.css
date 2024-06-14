@@ -1,0 +1,46 @@
+/* src/App.css */
+body {
+  background-color: #f0f8ff; /* Color de fondo de la página */
+  font-family: Arial, sans-serif; /* Fuente general de la página */
+}
+
+h1 {
+  color: #4682b4; /* Color del título */
+  text-align: center; /* Centrar el título */
+  margin-top: 20px; /* Espacio superior del título */
+}
+
+.App {
+  text-align: center; /* Centrar el contenido de la aplicación */
+  margin: 20px; /* Espacio alrededor del contenido de la aplicación */
+}
+
+input {
+  padding: 10px; /* Espaciado interno de los inputs */
+  margin: 10px; /* Espacio alrededor de los inputs */
+  border: 2px solid #4682b4; /* Borde de los inputs */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+button {
+  padding: 10px 20px; /* Espaciado interno de los botones */
+  margin: 10px; /* Espacio alrededor de los botones */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #4682b4; /* Color de fondo de los botones */
+  color: white; /* Color del texto de los botones */
+  font-size: 16px; /* Tamaño de la fuente de los botones */
+  cursor: pointer; /* Cambiar el cursor al pasar sobre los botones */
+}
+
+button:hover {
+  background-color: #5a9bd3; /* Color de fondo al pasar sobre los botones */
+}
+
+.tree-node {
+  border: 1px solid #4682b4; /* Borde de los nodos */
+  padding: 10px; /* Espaciado interno de los nodos */
+  margin: 10px; /* Espacio alrededor de los nodos */
+  display: inline-block; /* Mostrar los nodos en línea */
+  background-color: #e0f7fa; /* Color de fondo de los nodos */
+}
